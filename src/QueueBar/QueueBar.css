@@ -1,0 +1,9 @@
+.queueBar {
+    flex: 0.2;
+    color: rgb(160, 221, 221);
+    height: auto;
+    min-width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background:linear-gradient(to top,rgb(8, 65, 105), rgba(0, 0, 0, 1));
+}

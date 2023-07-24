@@ -1,0 +1,71 @@
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    height: 65px;
+    width: 97.5%;
+    background-color: #282828;
+    background-image: url(https://img.freepik.com/free-vector/arctic-aurora-borealis-night-lake-starry-sky-polar-lights-natural-landscape-northern-amazing-iridescent-glowing-wavy-illumination-shining-water-surface-cartoon-illustration_107791-6844.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-position: top;
+    backface-visibility: visible;
+}
+
+.footer__albumLogo {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.footer__left {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    max-width: 500px;
+}
+
+.footer__center {
+    flex: 0.4;
+    padding: 0 50px;
+    color: rgb(142, 217, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+.footer__right {
+    flex: 0.3;
+    color: rgb(142, 217, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+}
+
+.footer__green {
+    color: aquamarine;
+}
+
+.footer__songInfo>h4 {
+    margin-bottom: 5px;
+}
+
+.footer__songInfo>p {
+    font-size: 12px;
+}
+
+.footer__icon:hover,
+.footer__green:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+.footer__right * .MuiSlider-root {
+    color: rgb(84, 134, 220);
+}
