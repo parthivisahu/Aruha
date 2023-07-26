@@ -69,11 +69,11 @@ function Sidebar() {
       <br />
       <strong className="sidebar__title">PLAYLISTS</strong>
       <hr />
-      {Array.isArray(playlists) &&
-        playlists.map((playlist) => (
+        {playlists?.items?.map((playlist) => (
           <SidebarOption
             key={playlist.id}
             title={playlist.name}
+            // Here, onClick should call the handlePlaylistClick function
             onClick={() => handlePlaylistClick(playlist.id)}
           />
         ))}
