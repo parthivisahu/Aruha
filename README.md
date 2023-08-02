@@ -7,7 +7,6 @@ Welcome to Aruha, the enchanting music web app that immerses you in a world of m
 - [🚀 Technologies Used](#technologies-used)
 - [⚙️ Installation](#installation)
 - [💻 Usage](#usage)
-- [📸 Screenshots](#screenshots)
 - [🤝 Contributing](#contributing)
 - [📜 License](#license)
 - [📞 Contact](#contact)
